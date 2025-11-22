@@ -9,7 +9,7 @@
     <div class="flex shrink-0">
       <img
         class="rounded-full object-cover imgMain w-100"
-        src="../assets/IconMeuList.png"
+        src="../assets/logoFinal.png"
         alt="Icona"
       />
     </div>
