@@ -9,14 +9,14 @@
     <div class="flex shrink-0">
       <img
         class="rounded-full object-cover imgMain w-100"
-        src="../assets/logoFinal.png"
+        src="../assets/logoFinale.png"
         alt="Icona"
       />
     </div>
 
 
     <div class="flex flex-col text-center md:text-left lg:ml-10">
-      <h1 class="text-3xl font-bold textTit roboto-slab">PROGETTO MEUCCI</h1>
+      <h1 class="text-4xl font-extrabold textTit roboto-slab">PROGETTO MEUCCI</h1>
       <h2 class="text-2xl font-bold textSub roboto-slab">"La scuola che vogliamo, la costruiamo insieme"</h2>
       <p class="text-xl  mt-2 textTit roboto-slab">
         La nostra lista si impegna a migliorare la scuola attraverso progetti concreti e inclusivi,
