@@ -2,56 +2,21 @@
 @import 'tailwindcss';
 
 .backGroundMain {
-  background-color: #121212;
+  background-color: #FFFCF2;
   color: #e0e0e0;
   font-family: 'Segoe UI', Tahoma, sans-serif;
 }
 
-.roboto-slab {
-  font-family: "Roboto Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+.imgMain{
+
+  box-shadow: 0 0 10px #042C54, 0 0 15px #042C54, 0 0 20px #042C80;
+  transition: box-shadow 0.3s ease;
+}
+
+.imgMain:hover{
+
+  box-shadow: 0 0 20px #042C54, 0 0 25px #042C54, 0 0 30px #042C80;
+
 }
 
 
-.header,
-.section {
-  background-color: #1e1e1e;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-
-button,
-.cta {
-  background-color: #4d9de0;
-  color: #121212;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-button:hover,
-.cta:hover {
-  background-color: #ffd93d;
-  color: #121212;
-}
-
-a {
-  color: #ff6b6b;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.titolo{
-  font-size: 3rem;
-  background: linear-gradient(90deg, blue, purple);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
