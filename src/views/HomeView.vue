@@ -30,6 +30,7 @@
 
   </div>
   <ChiSiamo/>
+  <OurProjects/>
   <MyFooter/>
 </template>
 
@@ -37,5 +38,6 @@
 import MyFooter from '@/components/MyFooter.vue';
 import MyNavbar from '@/components/MyNavbar.vue';
 import ChiSiamo from './ChiSiamo.vue';
+import OurProjects from './OurProjects.vue';
 </script>
 
