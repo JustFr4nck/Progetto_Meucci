@@ -28,11 +28,16 @@
       </p>
     </div>
 
+
   </div>
+  <ChiSiamo/>
+  <MyFooter/>
 </template>
 
 <script setup>
+import MyFooter from '@/components/MyFooter.vue';
 import MyNavbar from '@/components/MyNavbar.vue';
+import ChiSiamo from './ChiSiamo.vue';
 </script>
 
 
