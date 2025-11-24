@@ -1,8 +1,5 @@
 <template>
-  <div>
     <MyNavbar/>
-  </div>
-
   <div class=" lg:pl-50 flex flex-col md:flex-row items-center justify-center backGroundMain p-6 md:p-10 gap-6 lg:mt-40">
 
 
@@ -29,8 +26,8 @@
 
 
   </div>
-  <ChiSiamo/>
-  <OurProjects/>
+  <ChiSiamo id="chiSiamo"/>
+  <OurProjects id="progetti"/>
   <MyFooter/>
 </template>
 
