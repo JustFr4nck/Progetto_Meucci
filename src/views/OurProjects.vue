@@ -8,11 +8,14 @@
 
     <div class="md:hidden flex justify-center">
       <div class="carousel rounded-box w-64">
-        <div class="carousel-item w-full">
-          <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp" class="w-full" />
+        <div class=" flex flex-col items-center carousel-item w-full bg-caru">
+          <img src="../assets/connected.png" class=" rounded-xl w-40 h-40 mt-5" />
+          <h1 class="textClear">...</h1>
         </div>
-        <div class="carousel-item w-full">
-          <img src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp" class="w-full" />
+        <div class="flex flex-col items-center carousel-item w-full bg-caru">
+          <img src="../assets/giovaniWannabe.jpeg" class="rounded-xl w-40 h-40 mt-5" />
+          <h1 class="textSub font-bold text-center">Assemblee con <br> "Giovani Wannabe"</h1>
+          <h1 class="textClear text-sm text-center ml-2 mr-2 mb-2">Nonostante le difficoltà, noi ci stiamo battendo per riportare le assemblee! Grazie all'aiuto di <a href="https://www.instagram.com/giovani.wannabe_?igsh=MTRkdzlmd3Boc24xOQ==">@giovani.wannabe_</a>, vogliamo dare voce agli studenti e renderli protagonisti della vita scolastica.</h1>
         </div>
         <div class="carousel-item w-full">
           <img src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp" class="w-full" />
@@ -23,8 +26,8 @@
 
     <div class="hidden md:flex justify-center gap-20 px-10">
       <div>
-        <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
-          class="rounded-2xl w-60 object-cover shadow-lg" />
+        <img src="../assets/connected.png"
+          class="rounded-2xl object-cover shadow-lg w-40 h-40" />
       </div>
       <div><img src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
           class="rounded-2xl w-60 object-cover shadow-lg" /></div>
@@ -34,3 +37,17 @@
 
   </div>
 </template>
+
+
+<style scoped>
+
+.bg-caru{
+
+  background-color: #042C54;
+}
+
+.textClear{
+
+  color: #FFFCF2;
+}
+</style>
