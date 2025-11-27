@@ -13,13 +13,26 @@
     </div>
 
     <div class="w-full md:w-1/2 flex justify-center md:justify-end">
-      <img
-        src="../assets/velaMare.jpeg"
-        alt="Foto"
-        class="rounded-2xl object-cover w-full max-w-md shadow-lg lg:mr-30"
-      >
+      <picture>
+        <source :srcset="velaMareAvif" type="image/avif" />
+        <source :srcset="velaMareWebp" type="image/webp" />
+        <img
+          :src="velaMare"
+          alt="Foto"
+          class="rounded-2xl object-cover w-full max-w-md shadow-lg lg:mr-30"
+          width="800"
+          height="1066"
+          loading="lazy"
+          decoding="async"
+        />
+      </picture>
     </div>
 
   </div>
 </template>
 
+<script setup>
+import velaMare from '@/assets/velaMare.jpeg';
+import velaMareAvif from '@/assets/velaMare.jpeg?format=avif';
+import velaMareWebp from '@/assets/velaMare.jpeg?format=webp';
+</script>
