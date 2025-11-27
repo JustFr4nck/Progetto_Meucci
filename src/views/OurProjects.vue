@@ -7,15 +7,15 @@
 
 
     <div class="md:hidden flex justify-center">
-      <div class="carousel rounded-box w-89">
+      <div class="carousel rounded-box w-80">
         <div class=" flex flex-col items-center carousel-item w-full bg-caru">
-          <img src="../assets/connected.png" class=" rounded-xl w-50 h-50 mt-5" />
+          <img src="../assets/connected.png" class=" rounded-xl w-45 h-45 mt-5" />
           <h1 class="textClear">...</h1>
         </div>
         <div class="flex flex-col items-center carousel-item w-full bg-caru">
-          <img src="../assets/giovaniWannabe.jpeg" class="rounded-xl w-50 h-50 mt-5" />
+          <img src="../assets/giovaniWannabe.jpeg" class="rounded-xl w-45 h-45 mt-5" />
           <h1 class="textSub text-2xl font-bold mt-2 text-center">Assemblee con <br> "Giovani Wannabe"</h1>
-          <h1 class="textClear text-lg text-center ml-4 mr-4 mb-4">Nonostante le difficoltà, noi ci stiamo battendo per riportare le assemblee! Grazie all'aiuto di <a href="https://www.instagram.com/giovani.wannabe_?igsh=MTRkdzlmd3Boc24xOQ==">@giovani.wannabe_</a>, vogliamo dare voce agli studenti e renderli protagonisti della vita scolastica.</h1>
+          <h1 class="textClear text-md text-center ml-4 mr-4 mb-4">Nonostante le difficoltà, noi ci stiamo battendo per riportare le assemblee! Grazie all'aiuto di <a href="https://www.instagram.com/giovani.wannabe_?igsh=MTRkdzlmd3Boc24xOQ==">@giovani.wannabe_</a>, vogliamo dare voce agli studenti e renderli protagonisti della vita scolastica.</h1>
         </div>
         <div class="carousel-item w-full">
           <img src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp" class="w-full" />
