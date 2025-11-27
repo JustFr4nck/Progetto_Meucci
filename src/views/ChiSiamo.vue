@@ -1,10 +1,10 @@
 <template>
-  <div class="flex flex-col-reverse md:flex-row items-center justify-center gap-10 px-6 md:px-20 pt-20 lg:pt-60 pb-20">
+  <div class="flex flex-col-reverse md:flex-row items-center justify-center gap-10 px-6 md:px-20 pt-20 lg:pt-60 pb-10">
 
     <div class="w-full md:w-1/2 md:text-left text-center">
       <h1 class="text-3xl lg:text-4xl font-extrabold textSub roboto-slab">Chi siamo</h1>
       <p class="textTit lg:text-xl text-lg leading-relaxed roboto-slab mt-4">
-        Siamo due studenti di quinta che tengono davvero alla nostra scuola.
+        Siamo Francesco Perrotta e Gianlorenzo Spataro, due studenti di quinta e teniamo davvero alla nostra scuola.
         Ci candidiamo perché vogliamo lasciare qualcosa di positivo prima di andarcene:
         piccole cose concrete che possano migliorare la vita di tutti i giorni.
         Vogliamo ascoltare le idee degli altri, capire cosa serve davvero e impegnarci

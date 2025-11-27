@@ -37,8 +37,8 @@
 
 
   </div>
-  <ChiSiamo/>
-  <OurProjects/>
+  <ChiSiamo id="chi-siamo"/>
+  <OurProjects id="progetti"/>
   <MyFooter/>
 </template>
 
