@@ -13,13 +13,21 @@
     </div>
 
     <div class="w-full md:w-1/2 flex justify-center md:justify-end">
-      <img
-        src="../assets/velaMare.jpeg"
+      <Image
+        :src="velaMare"
         alt="Foto"
         class="rounded-2xl object-cover w-full max-w-md shadow-lg lg:mr-30"
-      >
+        layout="constrained"
+        :width="800"
+        :height="1066"
+      />
     </div>
 
   </div>
 </template>
+
+<script setup>
+import { Image } from '@unpic/vue';
+import velaMare from '@/assets/velaMare.jpeg';
+</script>
 

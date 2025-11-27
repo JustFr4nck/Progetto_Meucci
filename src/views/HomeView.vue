@@ -7,10 +7,13 @@
 
 
     <div class="flex shrink-0">
-      <img
+      <Image
         class="rounded-full object-cover imgMain w-100"
-        src="../assets/logoFinale.png"
+        :src="logoFinale"
         alt="Icona"
+        layout="constrained"
+        :width="400"
+        :height="400"
       />
     </div>
 
@@ -35,9 +38,11 @@
 </template>
 
 <script setup>
+import { Image } from '@unpic/vue';
 import MyFooter from '@/components/MyFooter.vue';
 import MyNavbar from '@/components/MyNavbar.vue';
 import ChiSiamo from './ChiSiamo.vue';
 import OurProjects from './OurProjects.vue';
+import logoFinale from '@/assets/logoFinale.png';
 </script>
 
