@@ -9,14 +9,22 @@
     <div class="md:hidden flex justify-center">
       <div class="carousel rounded-box w-80">
         <div class=" flex flex-col items-center carousel-item w-full bg-caru">
-          <Image :src="connectedImg" alt="Connected Firenze logo" class=" rounded-xl w-45 h-45 mt-5" layout="constrained" :width="180" :height="180" />
+          <picture>
+            <source :srcset="connectedImgAvif" type="image/avif" />
+            <source :srcset="connectedImgWebp" type="image/webp" />
+            <img :src="connectedImg" alt="Connected Firenze logo" class=" rounded-xl w-45 h-45 mt-5" width="180" height="180" loading="lazy" decoding="async" />
+          </picture>
           <h1 class="textSub text-2xl font-bold mt-2 text-center">Sconti e servizi con <a class="font-bold"
               href="https://www.instagram.com/connected_firenze?igsh=MWZlaDZtYnBvejlocQ==">@connected_firenze</a>:</h1>
           <h1 class="textClear text-md text-center ml-6 mr-6 mb-4">Una piattaforma ricca di funzionalità utili per gli
             studenti, che include anche sconti fino al 15% in numerose attività convenzionate.</h1>
         </div>
         <div class="flex flex-col items-center carousel-item w-full bg-caru">
-          <Image :src="giovaniWannabeImg" alt="Giovani Wannabe logo" class="rounded-xl w-45 h-45 mt-5" layout="constrained" :width="180" :height="180" />
+          <picture>
+            <source :srcset="giovaniWannabeImgAvif" type="image/avif" />
+            <source :srcset="giovaniWannabeImgWebp" type="image/webp" />
+            <img :src="giovaniWannabeImg" alt="Giovani Wannabe logo" class="rounded-xl w-45 h-45 mt-5" width="180" height="180" loading="lazy" decoding="async" />
+          </picture>
           <h1 class="textSub text-2xl font-bold mt-2 text-center">Assemblee con <br> "Giovani Wannabe"</h1>
           <h1 class="textClear text-md text-center ml-6 mr-6 mb-4">Nonostante le difficoltà, noi ci stiamo battendo per
             riportare le assemblee! Grazie all'aiuto di <a class="font-bold"
@@ -24,7 +32,11 @@
             vogliamo dare voce agli studenti e renderli protagonisti della vita scolastica.</h1>
         </div>
         <div class="flex flex-col items-center carousel-item w-full bg-caru">
-          <Image :src="cpsFiImg" alt="Consulta degli Studenti di Firenze logo" class="rounded-xl w-45 h-45 mt-5" layout="constrained" :width="180" :height="180" />
+          <picture>
+            <source :srcset="cpsFiImgAvif" type="image/avif" />
+            <source :srcset="cpsFiImgWebp" type="image/webp" />
+            <img :src="cpsFiImg" alt="Consulta degli Studenti di Firenze logo" class="rounded-xl w-45 h-45 mt-5" width="180" height="180" loading="lazy" decoding="async" />
+          </picture>
           <h1 class="textSub text-2xl font-bold mt-2 text-center">Il potere della Consulta</h1>
           <h1 class="textClear text-md text-center ml-6 mr-6 mb-4">Come membri della <a class="font-bold"
               href="https://www.instagram.com/cps_firenze?igsh=bnUzejUzempmcHhx">Consulta degli Studenti di Firenze</a>,
@@ -44,7 +56,11 @@
       <div class="grid grid-cols-3 gap-8 w-8/12">
 
         <div class="flex flex-col items-center bg-caru rounded-xl p-4">
-          <Image :src="connectedImg" alt="Connected Firenze logo" class="rounded-xl w-45 h-45 mt-5" layout="constrained" :width="180" :height="180" />
+          <picture>
+            <source :srcset="connectedImgAvif" type="image/avif" />
+            <source :srcset="connectedImgWebp" type="image/webp" />
+            <img :src="connectedImg" alt="Connected Firenze logo" class="rounded-xl w-45 h-45 mt-5" width="180" height="180" loading="lazy" decoding="async" />
+          </picture>
           <h1 class="textSub text-2xl font-bold mt-2 text-center">
             Sconti e servizi con
             <a class="font-bold" href="https://www.instagram.com/connected_firenze?igsh=MWZlaDZtYnBvejlocQ==">
@@ -58,7 +74,11 @@
         </div>
 
         <div class="flex flex-col items-center bg-caru rounded-xl p-4">
-          <Image :src="giovaniWannabeImg" alt="Giovani Wannabe logo" class="rounded-xl w-45 h-45 mt-5" layout="constrained" :width="180" :height="180" />
+          <picture>
+            <source :srcset="giovaniWannabeImgAvif" type="image/avif" />
+            <source :srcset="giovaniWannabeImgWebp" type="image/webp" />
+            <img :src="giovaniWannabeImg" alt="Giovani Wannabe logo" class="rounded-xl w-45 h-45 mt-5" width="180" height="180" loading="lazy" decoding="async" />
+          </picture>
           <h1 class="textSub text-2xl font-bold mt-2 text-center">
             Assemblee con <br> "Giovani Wannabe"
           </h1>
@@ -71,7 +91,11 @@
         </div>
 
         <div class="flex flex-col items-center bg-caru rounded-xl p-4">
-          <Image :src="cpsFiImg" alt="Consulta degli Studenti di Firenze logo" class="rounded-xl w-45 h-45 mt-5" layout="constrained" :width="180" :height="180" />
+          <picture>
+            <source :srcset="cpsFiImgAvif" type="image/avif" />
+            <source :srcset="cpsFiImgWebp" type="image/webp" />
+            <img :src="cpsFiImg" alt="Consulta degli Studenti di Firenze logo" class="rounded-xl w-45 h-45 mt-5" width="180" height="180" loading="lazy" decoding="async" />
+          </picture>
           <h1 class="textSub text-2xl font-bold mt-2 text-center">
             Il potere della Consulta
           </h1>
@@ -92,10 +116,15 @@
 </template>
 
 <script setup>
-import { Image } from '@unpic/vue';
 import connectedImg from '@/assets/connected.png';
+import connectedImgAvif from '@/assets/connected.png?format=avif';
+import connectedImgWebp from '@/assets/connected.png?format=webp';
 import giovaniWannabeImg from '@/assets/giovaniWannabe.jpeg';
+import giovaniWannabeImgAvif from '@/assets/giovaniWannabe.jpeg?format=avif';
+import giovaniWannabeImgWebp from '@/assets/giovaniWannabe.jpeg?format=webp';
 import cpsFiImg from '@/assets/cpsFi.jpg';
+import cpsFiImgAvif from '@/assets/cpsFi.jpg?format=avif';
+import cpsFiImgWebp from '@/assets/cpsFi.jpg?format=webp';
 </script>
 
 

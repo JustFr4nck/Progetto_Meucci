@@ -7,14 +7,19 @@
 
 
     <div class="flex shrink-0">
-      <Image
-        class="rounded-full object-cover imgMain w-100"
-        :src="logoFinale"
-        alt="Icona"
-        layout="constrained"
-        :width="400"
-        :height="400"
-      />
+      <picture>
+        <source :srcset="logoFinaleAvif" type="image/avif" />
+        <source :srcset="logoFinaleWebp" type="image/webp" />
+        <img
+          class="rounded-full object-cover imgMain w-100"
+          :src="logoFinale"
+          alt="Icona"
+          width="400"
+          height="400"
+          loading="lazy"
+          decoding="async"
+        />
+      </picture>
     </div>
 
 
@@ -23,7 +28,7 @@
       <h2 class="text-2xl font-bold textSub roboto-slab">"La scuola che vogliamo, la costruiamo insieme"</h2>
       <p class="lg:text-xl  text-lg  mt-2 textTit roboto-slab">
         La nostra lista si impegna a migliorare la scuola attraverso progetti concreti e inclusivi, pensati per valorizzare ogni studente.
-        <br>Vogliamo rendere l’ambiente scolastico più accogliente,
+        <br>Vogliamo rendere l'ambiente scolastico più accogliente,
         sicuro e stimolante, promuovendo attività che favoriscano collaborazione, partecipazione e benessere.
         <br>Il nostro obiettivo è costruire una comunità scolastica più moderna,
         <br>attenta alle esigenze di tutti e capace di offrire nuove opportunità di crescita.
@@ -38,11 +43,11 @@
 </template>
 
 <script setup>
-import { Image } from '@unpic/vue';
 import MyFooter from '@/components/MyFooter.vue';
 import MyNavbar from '@/components/MyNavbar.vue';
 import ChiSiamo from './ChiSiamo.vue';
 import OurProjects from './OurProjects.vue';
 import logoFinale from '@/assets/logoFinale.png';
+import logoFinaleAvif from '@/assets/logoFinale.png?format=avif';
+import logoFinaleWebp from '@/assets/logoFinale.png?format=webp';
 </script>
-
