@@ -29,8 +29,8 @@
 
 
   </div>
-  <ChiSiamo/>
-  <OurProjects/>
+  <ChiSiamo id="chi-siamo"/>
+  <OurProjects id="progetti"/>
   <MyFooter/>
 </template>
 
@@ -40,4 +40,6 @@ import MyNavbar from '@/components/MyNavbar.vue';
 import ChiSiamo from './ChiSiamo.vue';
 import OurProjects from './OurProjects.vue';
 </script>
+
+
 

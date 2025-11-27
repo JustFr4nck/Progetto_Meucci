@@ -24,7 +24,7 @@
             vogliamo dare voce agli studenti e renderli protagonisti della vita scolastica.</h1>
         </div>
         <div class="flex flex-col items-center carousel-item w-full bg-caru">
-          <img src="../assets/cpsFi.jpg" class="rounded-xl w-45 h-45 mt-5" />
+          <img src="../assets/cps.jpg" class="rounded-xl w-45 h-45 mt-5" />
           <h1 class="textSub text-2xl font-bold mt-2 text-center">Il potere della Consulta</h1>
           <h1 class="textClear text-md text-center ml-6 mr-6 mb-4">Come membri della <a class="font-bold"
               href="https://www.instagram.com/cps_firenze?igsh=bnUzejUzempmcHhx">Consulta degli Studenti di Firenze</a>,
